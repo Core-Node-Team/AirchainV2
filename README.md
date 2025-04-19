@@ -157,7 +157,7 @@ sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.junctiond/config/config.t
 NOT: genesis sen yapma
 ```
 junctiond tendermint unsafe-reset-all --home $HOME/.junctiond
-curl -L http://37.120.189.81/airchain_testnet/airv_snap.tar.lz4 | tar -I lz4 -xf - -C $HOME/.junctiond
+curl -L http://37.120.189.81/airchain_testnet/airchain_snap.tar.lz4 | tar -I lz4 -xf - -C $HOME/.junctiond
 ```
 ### 🚧Başlatalım
 ```
